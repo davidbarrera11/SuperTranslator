@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		66616E482A450B9400BB3414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E472A450B9400BB3414 /* AppDelegate.swift */; };
-		66616E4A2A450B9400BB3414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E492A450B9400BB3414 /* SceneDelegate.swift */; };
-		66616E4C2A450B9400BB3414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E4B2A450B9400BB3414 /* ViewController.swift */; };
-		66616E4F2A450B9400BB3414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66616E4D2A450B9400BB3414 /* Main.storyboard */; };
 		66616E512A450B9500BB3414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66616E502A450B9500BB3414 /* Assets.xcassets */; };
 		66616E542A450B9500BB3414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66616E522A450B9500BB3414 /* LaunchScreen.storyboard */; };
+		66616E622A450F3A00BB3414 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E602A450F3A00BB3414 /* WelcomeViewController.swift */; };
+		66616E632A450F3A00BB3414 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66616E612A450F3A00BB3414 /* WelcomeViewController.xib */; };
+		66616E672A450F5F00BB3414 /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E652A450F5F00BB3414 /* TranslatorViewController.swift */; };
+		66616E682A450F5F00BB3414 /* TranslatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66616E662A450F5F00BB3414 /* TranslatorViewController.xib */; };
+		66616E6F2A45168F00BB3414 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E6D2A45168F00BB3414 /* SettingsViewController.swift */; };
+		66616E702A45168F00BB3414 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66616E6E2A45168F00BB3414 /* SettingsViewController.xib */; };
+		9F6B8AC0CC50456141555CF9 /* libPods-SuperTranslator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9904CDDA70CD928E27AFE4B /* libPods-SuperTranslator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106C75DC380C41319D4C6202 /* Pods-SuperTranslator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperTranslator.release.xcconfig"; path = "Target Support Files/Pods-SuperTranslator/Pods-SuperTranslator.release.xcconfig"; sourceTree = "<group>"; };
 		66616E442A450B9400BB3414 /* SuperTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66616E472A450B9400BB3414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66616E492A450B9400BB3414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66616E4B2A450B9400BB3414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66616E4E2A450B9400BB3414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66616E502A450B9500BB3414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66616E532A450B9500BB3414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66616E552A450B9500BB3414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66616E602A450F3A00BB3414 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		66616E612A450F3A00BB3414 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		66616E652A450F5F00BB3414 /* TranslatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
+		66616E662A450F5F00BB3414 /* TranslatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TranslatorViewController.xib; sourceTree = "<group>"; };
+		66616E6D2A45168F00BB3414 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		66616E6E2A45168F00BB3414 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B9904CDDA70CD928E27AFE4B /* libPods-SuperTranslator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperTranslator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93361E31466199EF1CF7802 /* Pods-SuperTranslator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperTranslator.debug.xcconfig"; path = "Target Support Files/Pods-SuperTranslator/Pods-SuperTranslator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6B8AC0CC50456141555CF9 /* libPods-SuperTranslator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DD6E9A41F376772564C1664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9904CDDA70CD928E27AFE4B /* libPods-SuperTranslator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66616E3B2A450B9400BB3414 = {
 			isa = PBXGroup;
 			children = (
 				66616E462A450B9400BB3414 /* SuperTranslator */,
 				66616E452A450B9400BB3414 /* Products */,
+				E2DF4135981031BF0B2F1CB5 /* Pods */,
+				5DD6E9A41F376772564C1664 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,83 @@
 		66616E462A450B9400BB3414 /* SuperTranslator */ = {
 			isa = PBXGroup;
 			children = (
-				66616E472A450B9400BB3414 /* AppDelegate.swift */,
-				66616E492A450B9400BB3414 /* SceneDelegate.swift */,
-				66616E4B2A450B9400BB3414 /* ViewController.swift */,
-				66616E4D2A450B9400BB3414 /* Main.storyboard */,
-				66616E502A450B9500BB3414 /* Assets.xcassets */,
 				66616E522A450B9500BB3414 /* LaunchScreen.storyboard */,
-				66616E552A450B9500BB3414 /* Info.plist */,
+				66616E5E2A450EDA00BB3414 /* Shared */,
+				66616E5C2A450EAE00BB3414 /* Config */,
+				66616E5B2A450CC200BB3414 /* Screens */,
 			);
 			path = SuperTranslator;
+			sourceTree = "<group>";
+		};
+		66616E5B2A450CC200BB3414 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				66616E692A450F6C00BB3414 /* Settings */,
+				66616E642A450F4000BB3414 /* Translator */,
+				66616E5F2A450F1B00BB3414 /* Welcome */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		66616E5C2A450EAE00BB3414 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				66616E472A450B9400BB3414 /* AppDelegate.swift */,
+				66616E552A450B9500BB3414 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		66616E5D2A450ECC00BB3414 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		66616E5E2A450EDA00BB3414 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				66616E5D2A450ECC00BB3414 /* Animations */,
+				66616E502A450B9500BB3414 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		66616E5F2A450F1B00BB3414 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				66616E602A450F3A00BB3414 /* WelcomeViewController.swift */,
+				66616E612A450F3A00BB3414 /* WelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		66616E642A450F4000BB3414 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				66616E652A450F5F00BB3414 /* TranslatorViewController.swift */,
+				66616E662A450F5F00BB3414 /* TranslatorViewController.xib */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		66616E692A450F6C00BB3414 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				66616E6D2A45168F00BB3414 /* SettingsViewController.swift */,
+				66616E6E2A45168F00BB3414 /* SettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E2DF4135981031BF0B2F1CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F93361E31466199EF1CF7802 /* Pods-SuperTranslator.debug.xcconfig */,
+				106C75DC380C41319D4C6202 /* Pods-SuperTranslator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66616E582A450B9500BB3414 /* Build configuration list for PBXNativeTarget "SuperTranslator" */;
 			buildPhases = (
+				F3E9980AD1E503A463A9E817 /* [CP] Check Pods Manifest.lock */,
 				66616E402A450B9400BB3414 /* Sources */,
 				66616E412A450B9400BB3414 /* Frameworks */,
 				66616E422A450B9400BB3414 /* Resources */,
+				66616E6B2A45139D00BB3414 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,34 +218,72 @@
 			files = (
 				66616E542A450B9500BB3414 /* LaunchScreen.storyboard in Resources */,
 				66616E512A450B9500BB3414 /* Assets.xcassets in Resources */,
-				66616E4F2A450B9400BB3414 /* Main.storyboard in Resources */,
+				66616E702A45168F00BB3414 /* SettingsViewController.xib in Resources */,
+				66616E682A450F5F00BB3414 /* TranslatorViewController.xib in Resources */,
+				66616E632A450F3A00BB3414 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66616E6B2A45139D00BB3414 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		F3E9980AD1E503A463A9E817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperTranslator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66616E402A450B9400BB3414 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66616E4C2A450B9400BB3414 /* ViewController.swift in Sources */,
 				66616E482A450B9400BB3414 /* AppDelegate.swift in Sources */,
-				66616E4A2A450B9400BB3414 /* SceneDelegate.swift in Sources */,
+				66616E622A450F3A00BB3414 /* WelcomeViewController.swift in Sources */,
+				66616E6F2A45168F00BB3414 /* SettingsViewController.swift in Sources */,
+				66616E672A450F5F00BB3414 /* TranslatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66616E4D2A450B9400BB3414 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66616E4E2A450B9400BB3414 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66616E522A450B9500BB3414 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +411,7 @@
 		};
 		66616E592A450B9500BB3414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93361E31466199EF1CF7802 /* Pods-SuperTranslator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +419,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QWHRV92X7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SuperTranslator/Info.plist;
+				INFOPLIST_FILE = SuperTranslator/Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +431,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chai.SuperTranslator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +442,7 @@
 		};
 		66616E5A2A450B9500BB3414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106C75DC380C41319D4C6202 /* Pods-SuperTranslator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +450,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QWHRV92X7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SuperTranslator/Info.plist;
+				INFOPLIST_FILE = SuperTranslator/Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +462,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chai.SuperTranslator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
