@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="SuperTranslator" customModuleProvider="target">
             <connections>
+                <outlet property="speechTextLabel" destination="dG4-f7-gOP" id="fin-mQ-Z9K"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,9 +19,35 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speech" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG4-f7-gOP">
+                    <rect key="frame" x="15" y="98" width="384" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="MS3-F9-BPh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sR9-u2-Lgh">
+                    <rect key="frame" x="168" y="677.5" width="78.5" height="34.5"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Record"/>
+                    <connections>
+                        <action selector="micChange" destination="-1" eventType="touchUpInside" id="crr-yn-f0T"/>
+                    </connections>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="140" y="21"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dG4-f7-gOP" secondAttribute="trailing" constant="15" id="4TG-22-7lD"/>
+                <constraint firstItem="sR9-u2-Lgh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="K9x-Oe-hSV"/>
+                <constraint firstItem="dG4-f7-gOP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="MMU-i6-hjh"/>
+                <constraint firstItem="dG4-f7-gOP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="UJ4-XJ-vZ5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sR9-u2-Lgh" secondAttribute="bottom" constant="150" id="eqM-1D-LSd"/>
+            </constraints>
+            <point key="canvasLocation" x="139.13043478260872" y="20.758928571428569"/>
         </view>
     </objects>
     <resources>
