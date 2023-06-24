@@ -16,6 +16,9 @@
 		66616E682A450F5F00BB3414 /* TranslatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66616E662A450F5F00BB3414 /* TranslatorViewController.xib */; };
 		66616E6F2A45168F00BB3414 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E6D2A45168F00BB3414 /* SettingsViewController.swift */; };
 		66616E702A45168F00BB3414 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66616E6E2A45168F00BB3414 /* SettingsViewController.xib */; };
+		66616E732A4540FC00BB3414 /* TranscriptMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66616E722A4540FC00BB3414 /* TranscriptMetadata.swift */; };
+		667008BC2A464CCC00F2A904 /* TranscriptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667008BA2A464CCC00F2A904 /* TranscriptTableViewCell.swift */; };
+		667008BD2A464CCC00F2A904 /* TranscriptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 667008BB2A464CCC00F2A904 /* TranscriptTableViewCell.xib */; };
 		9F6B8AC0CC50456141555CF9 /* libPods-SuperTranslator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9904CDDA70CD928E27AFE4B /* libPods-SuperTranslator.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		66616E662A450F5F00BB3414 /* TranslatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TranslatorViewController.xib; sourceTree = "<group>"; };
 		66616E6D2A45168F00BB3414 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		66616E6E2A45168F00BB3414 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		66616E722A4540FC00BB3414 /* TranscriptMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptMetadata.swift; sourceTree = "<group>"; };
+		667008BA2A464CCC00F2A904 /* TranscriptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptTableViewCell.swift; sourceTree = "<group>"; };
+		667008BB2A464CCC00F2A904 /* TranscriptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TranscriptTableViewCell.xib; sourceTree = "<group>"; };
 		B9904CDDA70CD928E27AFE4B /* libPods-SuperTranslator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperTranslator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93361E31466199EF1CF7802 /* Pods-SuperTranslator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperTranslator.debug.xcconfig"; path = "Target Support Files/Pods-SuperTranslator/Pods-SuperTranslator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +83,7 @@
 		66616E462A450B9400BB3414 /* SuperTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				667008B92A464CAC00F2A904 /* Cells */,
 				66616E522A450B9500BB3414 /* LaunchScreen.storyboard */,
 				66616E5E2A450EDA00BB3414 /* Shared */,
 				66616E5C2A450EAE00BB3414 /* Config */,
@@ -123,6 +130,7 @@
 		66616E5F2A450F1B00BB3414 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				66616E712A4540E800BB3414 /* Models */,
 				66616E602A450F3A00BB3414 /* WelcomeViewController.swift */,
 				66616E612A450F3A00BB3414 /* WelcomeViewController.xib */,
 			);
@@ -145,6 +153,23 @@
 				66616E6E2A45168F00BB3414 /* SettingsViewController.xib */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		66616E712A4540E800BB3414 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66616E722A4540FC00BB3414 /* TranscriptMetadata.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		667008B92A464CAC00F2A904 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				667008BA2A464CCC00F2A904 /* TranscriptTableViewCell.swift */,
+				667008BB2A464CCC00F2A904 /* TranscriptTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		E2DF4135981031BF0B2F1CB5 /* Pods */ = {
@@ -217,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66616E542A450B9500BB3414 /* LaunchScreen.storyboard in Resources */,
+				667008BD2A464CCC00F2A904 /* TranscriptTableViewCell.xib in Resources */,
 				66616E512A450B9500BB3414 /* Assets.xcassets in Resources */,
 				66616E702A45168F00BB3414 /* SettingsViewController.xib in Resources */,
 				66616E682A450F5F00BB3414 /* TranslatorViewController.xib in Resources */,
@@ -275,7 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				66616E482A450B9400BB3414 /* AppDelegate.swift in Sources */,
+				667008BC2A464CCC00F2A904 /* TranscriptTableViewCell.swift in Sources */,
 				66616E622A450F3A00BB3414 /* WelcomeViewController.swift in Sources */,
+				66616E732A4540FC00BB3414 /* TranscriptMetadata.swift in Sources */,
 				66616E6F2A45168F00BB3414 /* SettingsViewController.swift in Sources */,
 				66616E672A450F5F00BB3414 /* TranslatorViewController.swift in Sources */,
 			);

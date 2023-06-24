@@ -11,7 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="SuperTranslator" customModuleProvider="target">
             <connections>
-                <outlet property="speechTextLabel" destination="dG4-f7-gOP" id="fin-mQ-Z9K"/>
+                <outlet property="recordButton" destination="sR9-u2-Lgh" id="5zq-Za-bto"/>
+                <outlet property="speechTextView" destination="qra-EK-bIk" id="f7K-B9-sRH"/>
+                <outlet property="tableView" destination="2E7-At-eRV" id="P7s-1k-oEs"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,17 +22,22 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speech" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dG4-f7-gOP">
-                    <rect key="frame" x="15" y="98" width="384" height="300"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qra-EK-bIk">
+                    <rect key="frame" x="20" y="118" width="374" height="130"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="300" id="MS3-F9-BPh"/>
+                        <constraint firstAttribute="height" constant="130" id="aQT-2J-N4U"/>
                     </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2E7-At-eRV">
+                    <rect key="frame" x="20" y="288" width="374" height="489.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sR9-u2-Lgh">
-                    <rect key="frame" x="168" y="677.5" width="78.5" height="34.5"/>
+                    <rect key="frame" x="168" y="807.5" width="78.5" height="34.5"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Record"/>
                     <connections>
@@ -41,16 +48,23 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dG4-f7-gOP" secondAttribute="trailing" constant="15" id="4TG-22-7lD"/>
-                <constraint firstItem="sR9-u2-Lgh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="K9x-Oe-hSV"/>
-                <constraint firstItem="dG4-f7-gOP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="MMU-i6-hjh"/>
-                <constraint firstItem="dG4-f7-gOP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="UJ4-XJ-vZ5"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sR9-u2-Lgh" secondAttribute="bottom" constant="150" id="eqM-1D-LSd"/>
+                <constraint firstItem="sR9-u2-Lgh" firstAttribute="top" secondItem="2E7-At-eRV" secondAttribute="bottom" constant="30" id="6MC-Pe-zbX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sR9-u2-Lgh" secondAttribute="bottom" constant="20" id="AKi-E9-EgW"/>
+                <constraint firstItem="qra-EK-bIk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ASx-fm-MYW"/>
+                <constraint firstItem="2E7-At-eRV" firstAttribute="trailing" secondItem="qra-EK-bIk" secondAttribute="trailing" id="FEn-HZ-dnR"/>
+                <constraint firstItem="qra-EK-bIk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="70" id="IbG-ft-RH7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qra-EK-bIk" secondAttribute="trailing" constant="20" id="QCa-Us-vSr"/>
+                <constraint firstItem="2E7-At-eRV" firstAttribute="leading" secondItem="qra-EK-bIk" secondAttribute="leading" id="RL2-ID-Gve"/>
+                <constraint firstItem="2E7-At-eRV" firstAttribute="top" secondItem="qra-EK-bIk" secondAttribute="bottom" constant="40" id="hnD-Rw-5hF"/>
+                <constraint firstItem="sR9-u2-Lgh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jIr-yW-DUv"/>
             </constraints>
             <point key="canvasLocation" x="139.13043478260872" y="20.758928571428569"/>
         </view>
     </objects>
     <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
